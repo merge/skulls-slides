@@ -131,17 +131,14 @@ faadfce initial infos
 \begin{frame}
 make coreboot easy to install, easy to use
 
-ban excuses for running coreboot
-\pause
-
-something better and more secure than the Vendor BIOS that never gets in your way
-
-remember: UEFI services run during OS runtime too
+no excuse for running the proprietary vendor BIOS
 \pause
 
 build reproducibly (important because we release ROM images)
 
 security through simplicity (flash a known good image often)
+
+Heads - http://osresearch.net
 \end{frame}
 
 
@@ -153,9 +150,9 @@ easy to install
 \begin{frame}
 \includegraphics[width=0.5\textwidth]{rpi_clip.jpg}
 
-\# ./external\_install\_bottom.sh -m -k "backup-file-to-create"
-
 \# ./external\_install\_top.sh -k "backup-file-to-create"
+
+\# ./external\_install\_bottom.sh -m -k "backup-file-to-create"
 \end{frame}
 
 
@@ -200,24 +197,12 @@ upstream work
 \begin{frame}
 ensure latest SeaBIOS and MCU versions are in coreboot
 
-
 test and update coreboot's board-status (Supported Motherboards wiki)
 \end{frame}
 
 
 \begin{frame}
-Starter drug for Heads
-\end{frame}
-
-
-\begin{frame}
-http://osresearch.org
-
-(we include a script for flashing Heads)
-\end{frame}
-
-\begin{frame}
-demo time
+recorded demo (there's not VGA/HDMI during reboot)
 \end{frame}
 
 \begin{frame}
